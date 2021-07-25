@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: legalService
+  profiles:
+    active: dev
+
+server:
+  port: 8443
+  servlet:
+    context-path: /legalservice/
+
+logging:
+  config: classpath:log4j2/log4j2.xml
+

@@ -1,0 +1,5 @@
+jarpack="Wind.BDG.MedicineApiService-1.0-SNAPSHOT.jar"
+jarpath="/data/wind/wcb/Wind.BDG.MedicineApiService"
+path="/usr/local/jdk1.8.0_281/bin"
+JAVA_OPTS="-Xmx2000M -Dlogging.config=$jarpath/bin/dev/log4j2.xml -Dfile.encoding=utf-8 -Dspring.profiles.active=dev"
+sys_after="--server.port=8443"
